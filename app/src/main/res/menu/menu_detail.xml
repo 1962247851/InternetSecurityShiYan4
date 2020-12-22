@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="AES工具">
+        <menu>
+            <item
+                android:id="@+id/copySixTeenBitKey"
+                android:title="生成16位密钥" />
+        </menu>
+    </item>
+    <item android:title="DES工具">
+        <menu>
+            <item
+                android:id="@+id/copyEightBitKey"
+                android:title="生成8位密钥" />
+        </menu>
+    </item>
+    <item android:title="RSA工具">
+        <menu>
+            <item
+                android:id="@+id/copyRsaPublicKey"
+                android:title="生成RSA公钥" />
+            <item
+                android:id="@+id/copyRsaPrivateKey"
+                android:title="生成RSA私钥" />
+        </menu>
+    </item>
+</menu>

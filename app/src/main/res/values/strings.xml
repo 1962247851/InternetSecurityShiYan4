@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">信息安全技术实验四</string>
+    <string name="sub_title">加解密</string>
+    <string name="enter">选择算法</string>
+    <string name="enter_new_ui">直接进入</string>
+    <string name="key">密钥</string>
+    <string name="decode">解密</string>
+    <string name="encode">加密</string>
+    <string name="copy">复制</string>
+    <string name="paste">粘贴</string>
+    <string name="clear">清空</string>
+    <string name="decoded_string">明文</string>
+    <string name="encoded_string">密文</string>
+    <string name="blog_url">https://ordinaryroad.top</string>
+</resources>

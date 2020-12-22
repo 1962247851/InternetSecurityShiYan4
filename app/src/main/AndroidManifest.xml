@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.informationsecurity">
+
+    <application
+        android:name=".MyApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InformationSecurity">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.HomeActivity" />
+        <activity android:name=".activity.encodedecode.AESDetailActivity" />
+        <activity android:name=".activity.encodedecode.DESDetailActivity" />
+        <activity android:name=".activity.encodedecode.RC4DetailActivity" />
+        <activity android:name=".activity.encodedecode.MD5DetailActivity" />
+        <activity android:name=".activity.encodedecode.KaiSaDetailActivity" />
+        <activity android:name=".activity.encodedecode.RSADetailActivity" />
+        <activity android:name=".activity.encodedecode.Base64DetailActivity" />
+        <activity android:name=".activity.encodedecode.SHA1DetailActivity" />
+        <activity android:name=".activity.encodedecode.XORDetailActivity" />
+        <activity android:name=".activity.DetailNewVersionActivity" />
+    </application>
+
+</manifest>
